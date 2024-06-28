@@ -39,6 +39,8 @@ The application will generate an logo.svg file based on your input.
 
 Link to the repo: https://github.com/Jakostein97/logo-maker
 
+![App Walkthrough GIF](assets/images/Untitled_%20Jun%2027,%202024%209_53%20PM.gif)
+
 ## Credits
 
 N/A
