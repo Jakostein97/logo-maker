@@ -12,26 +12,22 @@ inquirer
         type: 'input',
         name: "text",
         message: 'Enter up to three characters',
-        default: "JAF",
     },
     {
         type: 'input',
         name: "textColor",
-        message:  "Enter a color keyword for the text color",
-        default: 'white',
+        message:  "Enter a color keyword for the text color"
     },
     {
         type: 'list',
         name: "shape",
         message:  "Choose a shape",
         choices: ['triangle', 'square', 'circle'],
-        default: 'square',
     },   
     {
         type: 'input',
         name: "shapeColor",
         message:  "Enter a color keyword for the shape color",
-        default: 'black',
     },
 ])
 .then((responses) => {
